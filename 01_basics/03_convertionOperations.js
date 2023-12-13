@@ -56,6 +56,7 @@ let str3 = str1 + str2
 // console.log(+"");
 
 let gameCounter = 100
-++kgameCounter;
+++gameCounter;
 console.log(gameCounter);
+
 
