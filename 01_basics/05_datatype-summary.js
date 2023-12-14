@@ -20,3 +20,13 @@ const bigNumber =123456788976565318282n
 //   Reference (Non pirimitive)
 
 //  arry, objects, functions
+
+const heros = ["superman","spiderman","batman"]
+
+let myObj={
+    name:"Ahmed",
+    age : 26,
+}
+const myFunction =function(){
+    console.log("hello world");
+}
