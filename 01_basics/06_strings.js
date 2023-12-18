@@ -26,3 +26,5 @@ console.log(newStringOne.trim());
 const url = "http//:www.ahmed.com/ahmed%209raza"
 
 console.log(url.replace('%209','-'));
+console.log(url.includes('raza1'));
+console.log(gameName.split('-'));
