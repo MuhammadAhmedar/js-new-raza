@@ -52,4 +52,14 @@ user [1].email
 // console.log(Object.values(tinderuser));
 // console.log(Object.entries(tinderuser));
 
-console.log(tinderuser.hasOwnProperty('isLogged'));
+// console.log(tinderuser.hasOwnProperty('isLogged'));
+
+const course = {
+    course : "js in hindi",
+    price :"999",
+    courseInstructor : "Ahmed"
+}
+// course.Instructor
+const {courseInstructor} = course
+
+console.log(courseInstructor);
