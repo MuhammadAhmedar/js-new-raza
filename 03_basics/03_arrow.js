@@ -26,8 +26,19 @@ const user = {
 // }
 // program()
 
-const program = () => {
-    let username = "Ahmed"
-    console.log(this.username);
-}
-program()
+// const program = () => {
+//     let username = "Ahmed"
+//     console.log(this.username);
+// }
+// program()
+
+// const addtwo = (num1, num2) => {
+//     return num1 + num2
+// }
+ 
+// const addtwo =(num1, num2) => num1 + num2
+
+// const addtwo =(num1, num2) =>(num1 + num2) 
+const addtwo =(num1, num2) =>({username : "Ahmed"}) 
+
+console.log(addtwo(3, 4));
