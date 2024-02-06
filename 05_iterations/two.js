@@ -5,13 +5,13 @@ while (index <= 10) {
 }
 let myArry = ["Superman","batman","ironman"]
 
-let arr = 0
-while (arr < myArry.length) {
-    // console.log(`value is ${myArry[arr]}`);
-    arr = arr + 1
-}
-let score = 1
-do {
-    console.log(`score is ${score}`);
-    score++
-} while (score <= 10);
+// let arr = 0
+// while (arr < myArry.length) {
+//     console.log(`value is ${myArry[arr]}`);
+//     arr = arr + 1
+// }
+// let score = 1
+// do {
+//     console.log(`score is ${score}`);
+//     score++
+// } while (score <= 10);

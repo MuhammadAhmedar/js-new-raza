@@ -28,10 +28,12 @@ for (const [key,value] of map) {
     // console.log(key,'=',value);
 }
 
-const myObject = {
-    'game1' : 'MARIO',
-    'game2' : 'NFS'
-}
-for (const [key, value] of myObject) {
-    console.log(key,'=',value);
-}
+//******************.  Objects are not work in iterations **********/
+
+// const myObject = {
+//     'game1' : 'MARIO',
+//     'game2' : 'NFS'
+// }
+// for (const [key, value] of myObject) {
+//     console.log(key,'=',value);
+// }
